@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/ALL COMPLETED PROJECTS ALL TYPS/The Farm Project/TheFarm/app/src/main/res/layout/activity_buttons_control.xml" value="0.36666666666666664" />
+        <entry key="..\:/ALL COMPLETED PROJECTS ALL TYPS/TheFarmProject/TheFarm/app/src/main/res/layout/activity_buttons_control.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/mostz/AndroidStudioProjects/TheFarm/app/src/main/res/drawable-v24/btn_eff_choose_control.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/mostz/AndroidStudioProjects/TheFarm/app/src/main/res/drawable-v24/btn_eff_ok_info.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/mostz/AndroidStudioProjects/TheFarm/app/src/main/res/drawable-v24/btn_eff_turn_bluetooth_off.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/mostz/AndroidStudioProjects/TheFarm/app/src/main/res/drawable/btn_eff_blue_lamp.xml" value="0.28802083333333334" />
+        <entry key="..\:/Users/mostz/AndroidStudioProjects/TheFarm/app/src/main/res/drawable/btn_eff_choose_control.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/mostz/AndroidStudioProjects/TheFarm/app/src/main/res/drawable/btn_eff_choose_to_do.xml" value="0.36302083333333335" />
+        <entry key="..\:/Users/mostz/AndroidStudioProjects/TheFarm/app/src/main/res/drawable/btn_eff_cold_fan.xml" value="0.28802083333333334" />
+        <entry key="..\:/Users/mostz/AndroidStudioProjects/TheFarm/app/src/main/res/drawable/btn_eff_desconnect.xml" value="0.28802083333333334" />
+        <entry key="..\:/Users/mostz/AndroidStudioProjects/TheFarm/app/src/main/res/drawable/btn_eff_food.xml" value="0.28802083333333334" />
+        <entry key="..\:/Users/mostz/AndroidStudioProjects/TheFarm/app/src/main/res/drawable/btn_eff_hot_fan.xml" value="0.28802083333333334" />
+        <entry key="..\:/Users/mostz/AndroidStudioProjects/TheFarm/app/src/main/res/drawable/btn_eff_street_lamp.xml" value="0.28802083333333334" />
+        <entry key="..\:/Users/mostz/AndroidStudioProjects/TheFarm/app/src/main/res/drawable/btn_eff_water.xml" value="0.28802083333333334" />
+        <entry key="..\:/Users/mostz/AndroidStudioProjects/TheFarm/app/src/main/res/drawable/btn_eff_white_lamp.xml" value="0.28802083333333334" />
+        <entry key="..\:/Users/mostz/AndroidStudioProjects/TheFarm/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/mostz/AndroidStudioProjects/TheFarm/app/src/main/res/layout/activity_buttons_control.xml" value="0.3625" />
+        <entry key="..\:/Users/mostz/AndroidStudioProjects/TheFarm/app/src/main/res/layout/activity_choose_to_do.xml" value="0.3625" />
+        <entry key="..\:/Users/mostz/AndroidStudioProjects/TheFarm/app/src/main/res/layout/activity_find_bluetooth.xml" value="0.3625" />
+        <entry key="..\:/Users/mostz/AndroidStudioProjects/TheFarm/app/src/main/res/layout/activity_splah.xml" value="0.3625" />
+        <entry key="..\:/Users/mostz/AndroidStudioProjects/TheFarm/app/src/main/res/layout/app_permissions_dialog.xml" value="0.3625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

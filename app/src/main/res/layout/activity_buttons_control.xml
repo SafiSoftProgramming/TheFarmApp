@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:keepScreenOn="true"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center_horizontal"
+    android:background="@drawable/ic_app_bg"
+    tools:context=".ButtonsControlActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp">
+
+
+        <ImageView
+            android:id="@+id/safisoft_logo"
+            android:layout_width="130dp"
+            android:layout_height="120dp"
+            android:layout_alignParentStart="true"
+            android:scaleType="fitStart"
+            android:src="@drawable/ic_left_cornar" />
+
+        <ImageView
+            android:id="@+id/safisoft_log"
+            android:layout_width="130dp"
+            android:layout_height="120dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="-5dp"
+            android:scaleType="fitStart"
+            android:src="@drawable/ic_right_cornar" />
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="-120dp"
+        android:layout_height="120dp">
+
+
+        <LinearLayout
+            android:layout_width="130dp"
+            android:layout_height="120dp"
+            android:layout_alignParentStart="true"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.airbnb.lottie.LottieAnimationView
+                    android:layout_width="60dp"
+                    android:layout_height="80dp"
+                    app:lottie_rawRes="@raw/ic_temp"
+                    app:lottie_autoPlay="true"
+                    app:lottie_loop="true"/>
+
+
+                <TextView
+                    android:id="@+id/txtv_temp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:text="28"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="48sp"/>
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="temperature"
+                android:textStyle="bold"
+                android:layout_marginStart="15dp"
+                android:textColor="@color/white"
+                android:textSize="15sp"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="130dp"
+            android:layout_height="120dp"
+            android:layout_alignParentEnd="true"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:gravity="end"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/txtv_volt_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:text="1V"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="48sp"/>
+
+                <com.airbnb.lottie.LottieAnimationView
+                    android:id="@+id/lottie_icon_battry"
+                    android:layout_width="60dp"
+                    android:layout_height="80dp"
+                    app:lottie_rawRes="@raw/ic_battry"
+                    app:lottie_autoPlay="true"
+                    app:lottie_loop="true"/>
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/txtv_solar_state"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="solar cel"
+                android:textStyle="bold"
+                android:layout_gravity="end"
+                android:layout_marginEnd="15dp"
+                android:textColor="@color/white"
+                android:textSize="15sp"/>
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/gifTextView_ic_duck"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="-100dp"
+        android:elevation="1dp"
+        android:layout_gravity="center"
+        app:lottie_rawRes="@raw/ic_sun_splash"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"/>
+
+    <TextView
+        android:id="@+id/txtv_command_history"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="-60dp"
+        android:background="@drawable/ic_textv_messege"
+        android:gravity="center"
+        android:paddingStart="15dp"
+        android:paddingTop="2dp"
+        android:paddingEnd="15dp"
+        android:paddingBottom="2dp"
+        android:text="Welcome to The Farm"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="15sp"
+        android:textStyle="normal" />
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:gravity="center">
+
+
+                <ImageButton
+                    android:id="@+id/btn_Food"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:layout_marginEnd="10dp"
+                    android:scaleType="fitXY"
+                    android:background="@drawable/btn_eff_food" >
+                </ImageButton>
+
+
+
+                <ImageButton
+                    android:id="@+id/btn_Water"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:layout_marginStart="10dp"
+                    android:scaleType="fitXY"
+                    android:background="@drawable/btn_eff_water" >
+                </ImageButton>
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:gravity="center">
+
+
+                <ImageButton
+                    android:id="@+id/btn_Hot_Fan"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:layout_marginEnd="10dp"
+                    android:scaleType="fitXY"
+                    android:background="@drawable/btn_eff_hot_fan" >
+                </ImageButton>
+
+
+
+                <ImageButton
+                    android:id="@+id/btn_Cold_Fan"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:layout_marginStart="10dp"
+                    android:scaleType="fitXY"
+                    android:background="@drawable/btn_eff_cold_fan" >
+                </ImageButton>
+
+
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:gravity="center">
+
+
+                <ImageButton
+                    android:id="@+id/btn_White_Lamp"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:layout_marginEnd="10dp"
+                    android:scaleType="fitXY"
+                    android:background="@drawable/btn_eff_white_lamp" >
+                </ImageButton>
+
+
+
+                <ImageButton
+                    android:id="@+id/btn_Blue_Lamp"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:layout_marginStart="10dp"
+                    android:scaleType="fitXY"
+                    android:background="@drawable/btn_eff_blue_lamp" >
+                </ImageButton>
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_gravity="center"
+                android:gravity="center">
+
+
+                <ImageButton
+                    android:id="@+id/btn_Street_Lamp"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:layout_marginEnd="10dp"
+                    android:scaleType="fitXY"
+                    android:background="@drawable/btn_eff_street_lamp" >
+                </ImageButton>
+
+
+
+                <ImageButton
+                    android:id="@+id/btn_turn_off"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:layout_marginStart="10dp"
+                    android:scaleType="fitXY"
+                    android:background="@drawable/btn_eff_desconnect" >
+                </ImageButton>
+
+
+
+
+            </LinearLayout>
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+    </ScrollView>
+
+
+
+
+
+
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_marginBottom="-2dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="210dp"
+                android:layout_height="75dp"
+                android:scaleType="fitStart"
+                android:src="@drawable/ic_turnoff_bluname_bg" />
+
+            <LinearLayout
+                android:layout_width="210dp"
+                android:layout_height="70dp"
+                android:orientation="horizontal"
+                android:layout_marginStart="-210dp">
+
+                <ImageButton
+                    android:id="@+id/btn_turnf"
+                    android:layout_width="55dp"
+                    android:layout_height="75dp"
+                    android:layout_marginTop="1dp"
+                    android:scaleType="fitXY"
+                    android:background="@drawable/btn_eff_turn_bluetooth_off"/>
+
+                <com.airbnb.lottie.LottieAnimationView
+                    android:layout_width="55dp"
+                    android:layout_height="70dp"
+                    android:layout_marginStart="-55dp"
+                    app:lottie_rawRes="@raw/ic_btn_turn_bluetooth_off"
+                    app:lottie_autoPlay="true"
+                    app:lottie_loop="true"/>
+
+                <LinearLayout
+                    android:layout_width="125dp"
+                    android:layout_height="75dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Connected"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:layout_marginTop="6dp"
+                        android:layout_marginStart="5dp"/>
+
+                    <TextView
+                        android:id="@+id/txtv_bluetooth_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="98:D3:31:F9:78:0B"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:maxLength="17"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginStart="5dp"/>
+
+                    <TextView
+                        android:id="@+id/txtv_bluetooth_mac"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="98:D3:31:F9:78:0B"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:maxLength="17"
+                        android:layout_marginStart="5dp"/>
+
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+               android:layout_marginStart="-87dp"
+                android:layout_marginTop="-4dp"
+                app:lottie_rawRes="@raw/ic_bluetooth_is_connected"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"/>
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+</LinearLayout>
